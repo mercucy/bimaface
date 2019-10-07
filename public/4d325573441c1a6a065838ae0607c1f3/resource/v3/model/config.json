@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "version": "0.15",
+        "datetime": "2019-09-20 10:09:30",
+        "model_unit": "mm",
+        "material_override": 1,
+        "material": 1,
+        "userdata": 1,
+        "symbol": 1,
+        "scenes": 1,
+        "layers": 0,
+        "mpks": 4,
+        "bmpks": 24,
+        "lines": 0,
+        "octree_o": 0,
+        "octree_i": 1,
+        "octree_layer": 0,
+        "user_id": 1,
+        "outline_0": 1,
+        "outline_1": 1,
+        "camera": 0,
+        "mesh_level": 1,
+        "texture_level": 1,
+        "texture_dds": 1,
+        "texture_small": 1,
+        "material_json": 1,
+        "model_size": 2769844
+    },
+    "count": {
+        "element": 598,
+        "item": 627,
+        "geom": 68,
+        "geom_box": 68,
+        "geom_box_b": 0,
+        "geom_box_m": 68,
+        "geom_pipe": 0,
+        "geom_tube": 0,
+        "geom_line": 0,
+        "mesh": 1034,
+        "mesh_vertex": 524854,
+        "mesh_face": 487588,
+        "mpk_mesh": 217,
+        "mpk_vertex": 96166,
+        "mpk_face": 87223,
+        "texture_count": 9,
+        "texture_pixels": 392.458,
+        "material": 45
+    },
+    "view": {
+        "bbox": [
+            19302.1,
+            185084,
+            -29621,
+            667664,
+            536077,
+            7826.98
+        ],
+        "position": [
+            -264.885,
+            8.40349,
+            -278.07
+        ],
+        "rotation": [
+            -1.5708,
+            0,
+            0
+        ],
+        "scale": [
+            0.000771174,
+            0.000771174,
+            0.000771174
+        ],
+        "transform": 0
+    }
+}

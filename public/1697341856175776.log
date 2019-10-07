@@ -1,0 +1,90 @@
+2019-09-20 11:06:41,335 INFO  - -------------Starting Job 1697341856175776 Logger-------------
+2019-09-20 11:06:41,335 INFO  - Notice sended, jobId = 1697341856175776, status = download, code = null, message = null, usage = null
+2019-09-20 11:06:41,571 INFO  - File downloaded, size = -1, cost = 220
+2019-09-20 11:06:41,571 INFO  - Notice sended, jobId = 1697341856175776, status = execute, code = null, message = null, usage = null
+2019-09-20 11:06:41,571 INFO  - worker command = [python -u C:\Job\worker\local-databag\20190903-1bd4a0-1\framework/worker.py --workflow localpack/localpack.json --input "C:\Job\wd\1697341856175776\input\4d325573441c1a6a065838ae0607c1f3.zip" --config "C:\Job\wd\1697341856175776\input\config.json" --output "C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482"], job id = 1697341856175776
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)]
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: sys.version_info(major=3, minor=6, micro=1, releaselevel='final', serial=0)
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: C:\Job\wd\1697341856175776\input\config.json
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: Namespace(config=<__main__.CustomConfig object at 0x000001AA11A11518>, configPath='C:\\Job\\wd\\1697341856175776\\input\\config.json', input='C:\\Job\\wd\\1697341856175776\\input\\4d325573441c1a6a065838ae0607c1f3.zip', links=None, maxLevel=None, maxTime=None, model='', output='C:\\Job\\wd\\1697341856175776\\faf824e31428b467071957855221f482', rule=None, workflow='localpack/localpack.json')
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: {}
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: >> WORKFLOW: localpack/localpack.json
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: C:\Job\worker\local-databag\20190903-1bd4a0-1\7zip
+2019-09-20 11:06:41,695 INFO  - WORKER OUTPUT: C:\Job\worker\local-databag\20190903-1bd4a0-1\localpack
+2019-09-20 11:06:41,757 INFO  - WORKER OUTPUT: ___________________________________________
+2019-09-20 11:06:41,757 INFO  - WORKER OUTPUT: >> TASK START: localpack
+2019-09-20 11:06:41,757 INFO  - WORKER OUTPUT: Unzip: C:\Job\wd\1697341856175776\input\4d325573441c1a6a065838ae0607c1f3.zip -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482
+2019-09-20 11:06:41,778 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:41,779 INFO  - WORKER OUTPUT: 7-Zip [32] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+2019-09-20 11:06:41,780 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:41,780 INFO  - WORKER OUTPUT: Scanning the drive for archives:
+2019-09-20 11:06:41,780 INFO  - WORKER OUTPUT: 1 file, 3533695 bytes (3451 KiB)
+2019-09-20 11:06:41,780 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:41,780 INFO  - WORKER OUTPUT: Extracting archive: C:\Job\wd\1697341856175776\input\4d325573441c1a6a065838ae0607c1f3.zip
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: --
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: Path = C:\Job\wd\1697341856175776\input\4d325573441c1a6a065838ae0607c1f3.zip
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: Type = zip
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: Physical Size = 3533695
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: Everything is Ok
+2019-09-20 11:06:41,914 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:41,929 INFO  - WORKER OUTPUT: Folders: 23
+2019-09-20 11:06:41,929 INFO  - WORKER OUTPUT: Files: 92
+2019-09-20 11:06:41,929 INFO  - WORKER OUTPUT: Size:       4116300
+2019-09-20 11:06:41,929 INFO  - WORKER OUTPUT: Compressed: 3533695
+2019-09-20 11:06:41,929 INFO  - WORKER OUTPUT: Download: https://static.bimface.com/api/BimfaceSDKLoader/BimfaceSDKLoader@latest-release.js -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\jssdk\BimfaceSDKLoader@latest-release.js
+2019-09-20 11:06:42,539 INFO  - WORKER OUTPUT: Download: https://static.bimface.com/api/Glodon/Bimface@3.4.75.zip -> C:\Job\wd\1697341856175776\input\Bimface@3.4.75.zip
+2019-09-20 11:06:42,914 INFO  - WORKER OUTPUT: Unzip: C:\Job\wd\1697341856175776\input\Bimface@3.4.75.zip -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\jssdk
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: 7-Zip [32] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: Scanning the drive for archives:
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: 1 file, 1594843 bytes (1558 KiB)
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:42,929 INFO  - WORKER OUTPUT: Extracting archive: C:\Job\wd\1697341856175776\input\Bimface@3.4.75.zip
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: --
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: Path = C:\Job\wd\1697341856175776\input\Bimface@3.4.75.zip
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: Type = zip
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: Physical Size = 1594843
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:43,007 INFO  - WORKER OUTPUT: Everything is Ok
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: 
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: Folders: 5
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: Files: 36
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: Size:       8329132
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: Compressed: 1594843
+2019-09-20 11:06:43,023 INFO  - WORKER OUTPUT: Download: https://api.bimface.com/data/internal/files/1697313609778656/tree?v=2.0 -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\data\tree.json
+2019-09-20 11:06:43,070 INFO  - WORKER OUTPUT: Download: https://api.bimface.com/data/internal/files/1697313609778656/floors?includeArea=true&includeRoom=true -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\data\spaces.json
+2019-09-20 11:06:43,101 INFO  - WORKER OUTPUT: Download: https://api.bimface.com/data/internal/files/1697313609778656/drawingsheets -> C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\data\drawingsheets.json
+2019-09-20 11:06:43,132 INFO  - WORKER OUTPUT: C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\property\modeldrive.db
+2019-09-20 11:06:43,132 INFO  - WORKER OUTPUT: Run MDB to JSON£º
+2019-09-20 11:06:43,132 INFO  - WORKER OUTPUT: C:\Job\worker\local-databag\20190903-1bd4a0-1\localpack\bin/mdb2json.exe --input "C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\property\modeldrive.db" --output "C:\Job\wd\1697341856175776\faf824e31428b467071957855221f482\4d325573441c1a6a065838ae0607c1f3\property"
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Writte to the Value.json.gz successfully!
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Writte to the Schema.json.gz successfully!
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,164 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: Missing family type: 0
+2019-09-20 11:06:43,179 INFO  - WORKER OUTPUT: write to the Families.json.gz successfully!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: write to the FamilyTypeProperties.json.gz successfully!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: write to the Elements.json.gz successfully!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: write to the ElementProperties.json.gz successfully!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: write to the BoundingBox.json.gz successfully!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: db to json done!
+2019-09-20 11:06:43,195 INFO  - WORKER OUTPUT: 0
+2019-09-20 11:06:43,210 INFO  - WORKER OUTPUT: Clean up models...
+2019-09-20 11:06:43,210 INFO  - WORKER OUTPUT: Create viewToken.json
+2019-09-20 11:06:43,210 INFO  - WORKER OUTPUT: >> TASK END.
+2019-09-20 11:06:43,210 INFO  - WORKER OUTPUT: Worker finished with code 0
+2019-09-20 11:06:43,304 INFO  - Notice sended, jobId = 1697341856175776, status = upload, code = null, message = null, usage = null

@@ -1,0 +1,20 @@
+{
+    "dataInformation": {
+        "version": "1.0",
+        "datetime": "2019-09-20 10:09:30",
+        "comment": "box(v:24, t:12), pipe(v:130, t:124)"
+    },
+    "sceneStatistics": {
+        "elementCount": 598,
+        "geometryTotalCount": 1102,
+        "triangleTotalCount": 488404,
+        "vertexTotalCount": 526486,
+        "primitiveTotalCount": 68,
+        "boxGeometryCount": 68,
+        "pipeGeometryCount": 0,
+        "meshCount": 1034,
+        "uniqueMeshCount": 217,
+        "uniqueTriangleCount": 87223,
+        "uniqueVertexCount": 96166
+    }
+}
